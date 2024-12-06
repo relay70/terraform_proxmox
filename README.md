@@ -9,7 +9,9 @@ There are three integrations with different Terraform providers:
 - phpIPAM for pulling the next avaialable IPs.
 
 ### Usage
-Execute: terraform apply -var=hosts='["host1", "host2"]'
+Execute: 
+terraform apply -var=hosts='["host1", "host2"]'
+
 This will created to VMs or LXCs called host1, and host2. At least one hostname is required. 
 
 ### Requirements
