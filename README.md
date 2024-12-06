@@ -11,3 +11,10 @@ There are three integrations with different Terraform providers:
 ### Usage
 Execute: terraform apply -var=hosts='["host1", "host2"]'
 This will created to VMs or LXCs called host1, and host2. At least one hostname is required. 
+
+### Requirements
+Since this code uses specific key values from vault, it will require the same engines and key values to exist.  These are easily changed in the code though.
+For the Vault provider to work you need the standard Vault environment variables to be set:
+- VAULT_TOKEN
+- VAULT_ADDR
+- VAULT_NAMESPACE
