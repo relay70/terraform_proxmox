@@ -7,6 +7,8 @@ There are three integrations with different Terraform providers:
 - ProxMox provider to create the VMs and LXCs
 - HashiCorp Vault for pulling secrets
 - phpIPAM for pulling the next avaialable IPs.
+This code is part of a tutorial on Terraform conditionals (if/then).  The tutorial can be found here:
+[https://www.relay70.com/2024/12/06/terraform-conditional-module-execution/](https://www.relay70.com/2024/12/06/terraform-conditional-module-execution/)
 
 ### Usage
 Execute: 
